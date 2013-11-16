@@ -2,7 +2,9 @@
 
 function wpbootstrap_scripts_with_jquery()
 {
-    // register the script like this for a theme:
+    // register the scripts for a theme:
+
+    wp_register_script( 'jquery-min', get_template_directory_uri() . '/js/jquery-1.8.2.min.js', array( 'jquery' ) ); 
     wp_register_script( 'custom-script', get_template_directory_uri() . '/js/bootstrap.js', array( 'jquery' ) );     
     wp_register_script( 'jquery-tweet', get_template_directory_uri() . '/js/jquery.tweet.js', array( 'jquery' ) );
     wp_register_script( 'clock', get_template_directory_uri() . '/js/clock.js', array( 'jquery' ) ); 
@@ -14,8 +16,9 @@ function wpbootstrap_scripts_with_jquery()
     wp_register_script( 'bgCustom', get_template_directory_uri() . '/js/bgCustom.js', array(), false, true );
 
 
-    // For either a plugin or a theme, you can then enqueue the script:
-    wp_enqueue_script( array( 'custom-script', 'jquery-tweet', 'clock', 'soon', 'dat-gui-min-js', 'fss', 'bgCustom' ) );
+    // Enqueue the script:
+    wp_enqueue_script( array( 'jquery-min','custom-script', 'jquery-tweet', 'clock', 'soon', 'dat-gui-min-js', 'fss', 'bgCustom' ) );
 }
 
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
+
