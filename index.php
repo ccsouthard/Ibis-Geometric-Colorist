@@ -14,7 +14,7 @@
                     <div class="logo">
                         <canvas id="canvas_seconds" width="180" height="180"></canvas>
                         <div class="logoWrap">
-                            <img src="assets/images/logo.png" alt="Logo" />
+                            <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="Logo" />
                             <div class="timer">
                                 <p>
                                     <span class="days">234</span>days<span class="hrs">15</span>hours<br />
@@ -78,7 +78,7 @@
 				<div class="twitArea span6">
 					<span class="twitSep left"></span>
 					<div class="row-fluid">
-						<img src="assets/images/twitterArea.png" class="tickerImage" alt="TwitterTickerImage" />
+						<img src="<?php echo get_template_directory_uri() ?>/img/twitterArea.png" class="tickerImage" alt="TwitterTickerImage" />
 						<div id="tweetTicker">
 						</div>
 					</div>
