@@ -8,7 +8,7 @@
     <meta name="author" content="C. Southard" />
     <meta name="keywords" content="" />
     <meta name="description" content="An Interactive Co." />
-<!-- le styles -->
+    <!-- le styles -->
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
   
     <!--[If IE 9]>

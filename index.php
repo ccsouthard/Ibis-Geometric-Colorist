@@ -7,19 +7,33 @@
 </div>
 <div id="ui" class="container slide">
     <div class="row-fluid">
-        <div class="span12">
-            <div class="logo">
-                <div class="logoWrap">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="Logo" />
+        <div class="span3 offset3">
+            <a href="#" class="pathWrap">
+                <div class="logo">
+                    <div class="logoWrap">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo" />
+                    </div>
                 </div>
-            </div>
+                <h2>design</h2>
+            </a>
+        </div>
+        <div class="span3">
+            <a href="#" class="pathWrap">
+                <div class="logo">
+                    <div class="logoWrap">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo" />
+                    </div>
+                </div>
+                <h2>art</h2>
+            </a>
         </div>
     </div>
     <div class="row-fluid">
-        <div class="cContent">
-            <p>
-                We are currently working on an awesome new site, won't be long. Please don't forget
-                to check out our tweets and to subscribe to be notified!
+        <div class="span12">
+            <p class="lead">
+                Welcome, You'd reach the homepage
+                <br>
+                - Click the symbol above for your desired door...
             </p>
         </div>
     </div>

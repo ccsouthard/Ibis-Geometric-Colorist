@@ -1,7 +1,7 @@
     </div>
     <script>
-        var amb = '#880066';
-        var diff = '#FF8800';
+        var amb = '#052661';
+        var diff = '#56a074';
     </script>
     <?php wp_footer(); ?>
 </body>
