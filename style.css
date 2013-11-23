@@ -10,10 +10,6 @@ License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
 
-@import url('css/bootstrap.css'); 
-@import url('css/bootstrap-responsive.css'); 
-@import url('css/style.css'); 
-body { 
-     padding-top: 60px; 
-     padding-bottom: 40px;  
- }
+@import url('css/bootstrap.css');
+@import url('css/bootstrap-responsive.css');
+@import url('css/splash.css');
